@@ -1,4 +1,9 @@
 {
-	"folders": [],
+	"folders": [
+		{
+			"name": "eyes",
+			"path": "./eyes"
+		}
+	],
 	"settings": {}
 }
