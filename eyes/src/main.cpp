@@ -1,5 +1,6 @@
 #include "esp_camera.h"
 #include <WiFi.h>
+#include "settings.h"
 
 //
 // WARNING!!! Make sure that you have either selected ESP32 Wrover Module,
@@ -15,8 +16,8 @@
 
 #include "camera_pins.h"
 
-const char* ssid = "zoomers";
-const char* password = "cie403IIFBVS";
+const char* ssid = WIFI_SSID;
+const char* password = WIFI_PASSWORD;
 
 void startCameraServer();
 
